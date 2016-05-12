@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: TPKit.xcodeproj 
-xcode_scheme: TPKitTests
+xcode_scheme: TPKit
+xcode_sdk: iphonesimulator

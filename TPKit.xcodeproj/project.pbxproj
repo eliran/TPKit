@@ -14,8 +14,6 @@
 		B71D0E971C80D1A400E38938 /* TPDelegatedReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B71D0E951C80D1A400E38938 /* TPDelegatedReader.h */; };
 		B71D0E981C80D1A400E38938 /* TPDelegatedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B71D0E961C80D1A400E38938 /* TPDelegatedReader.m */; };
 		B7455FD71C552F800031C79C /* TPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FD61C552F800031C79C /* TPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7455FDE1C552F800031C79C /* TPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7455FD31C552F800031C79C /* TPKit.framework */; };
-		B7455FE31C552F800031C79C /* TPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FE21C552F800031C79C /* TPKitTests.m */; };
 		B7455FFF1C552FA50031C79C /* NSArray+LazyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74560001C552FA50031C79C /* NSArray+LazyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FEE1C552FA50031C79C /* NSArray+LazyGenerator.m */; };
 		B74560011C552FA50031C79C /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FEF1C552FA50031C79C /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,48 +32,36 @@
 		B745600E1C552FA50031C79C /* QHashGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FFC1C552FA50031C79C /* QHashGenerator.m */; };
 		B745600F1C552FA50031C79C /* QRange.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FFD1C552FA50031C79C /* QRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74560101C552FA50031C79C /* QRange.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FFE1C552FA50031C79C /* QRange.m */; };
-		B745601A1C5530560031C79C /* QArrayGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560161C5530560031C79C /* QArrayGeneratorTests.m */; };
-		B745601B1C5530560031C79C /* QHashGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560171C5530560031C79C /* QHashGeneratorTests.m */; };
-		B745601C1C5530560031C79C /* TPSafeFieldExtractingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */; };
-		B745601D1C5530560031C79C /* NSData+Base64Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560191C5530560031C79C /* NSData+Base64Test.m */; };
 		B74560721C5551810031C79C /* TPPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = B74560701C5551810031C79C /* TPPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74560731C5551810031C79C /* TPPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560711C5551810031C79C /* TPPromise.m */; };
-		B74561D01C5658480031C79C /* TPLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74561CF1C5658480031C79C /* TPLoggerTests.m */; };
 		B74561D31C5659830031C79C /* TPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B74561D11C5659830031C79C /* TPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B74561D41C5659830031C79C /* TPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B74561D21C5659830031C79C /* TPLogger.m */; };
-		B769029A1CA186E000BF8660 /* TPDataReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B76902991CA186E000BF8660 /* TPDataReaderTests.m */; };
 		B780738A1C8E09E5008EE427 /* TPJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073881C8E09E5008EE427 /* TPJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B780738B1C8E09E5008EE427 /* TPJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073891C8E09E5008EE427 /* TPJSONSerialization.m */; };
-		B780738E1C8E0A0C008EE427 /* TPJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */; };
 		B78073911C8E290C008EE427 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B780738F1C8E290C008EE427 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073921C8E290C008EE427 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073901C8E290C008EE427 /* NSString+Extensions.m */; };
 		B78073951C8E2A7F008EE427 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073931C8E2A7F008EE427 /* NSData+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073961C8E2A7F008EE427 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073941C8E2A7F008EE427 /* NSData+Extensions.m */; };
 		B78073991C8F1FE9008EE427 /* TPXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073971C8F1FE9008EE427 /* TPXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B780739A1C8F1FE9008EE427 /* TPXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073981C8F1FE9008EE427 /* TPXMLElement.m */; };
-		B780739D1C8F217E008EE427 /* TPXMLElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780739C1C8F217E008EE427 /* TPXMLElementTests.m */; };
-		B78073A11C8F2CAE008EE427 /* TPXMLElementBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A01C8F2CAE008EE427 /* TPXMLElementBuilderTests.m */; };
 		B78073A41C8F2D49008EE427 /* TPXMLElementBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073A21C8F2D49008EE427 /* TPXMLElementBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073A51C8F2D49008EE427 /* TPXMLElementBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A31C8F2D49008EE427 /* TPXMLElementBuilder.m */; };
-		B78073A71C8F3238008EE427 /* TPXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A61C8F3238008EE427 /* TPXMLParserTests.m */; };
 		B78073AA1C8F36AD008EE427 /* TPXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073A81C8F36AD008EE427 /* TPXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073AB1C8F36AD008EE427 /* TPXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A91C8F36AD008EE427 /* TPXMLParser.m */; };
-		B78073AD1C8F54AF008EE427 /* TPXMLAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073AC1C8F54AF008EE427 /* TPXMLAttributeTests.m */; };
 		B78073B01C8F56E7008EE427 /* TPXMLAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073AE1C8F56E7008EE427 /* TPXMLAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073B11C8F56E7008EE427 /* TPXMLAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073AF1C8F56E7008EE427 /* TPXMLAttribute.m */; };
 		B78073B41C8F57A4008EE427 /* TPXMLName.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073B21C8F57A4008EE427 /* TPXMLName.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78073B51C8F57A4008EE427 /* TPXMLName.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B31C8F57A4008EE427 /* TPXMLName.m */; };
-		B78073B71C8F5863008EE427 /* TPXMLNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B61C8F5863008EE427 /* TPXMLNameTests.m */; };
 		B78073FE1C98501A008EE427 /* TPRegexDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073FC1C98501A008EE427 /* TPRegexDictionary.h */; };
 		B78073FF1C98501A008EE427 /* TPRegexDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073FD1C98501A008EE427 /* TPRegexDictionary.m */; };
-		B78074011C985082008EE427 /* TPRegexDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78074001C985082008EE427 /* TPRegexDictionaryTests.m */; };
-		B7EC6B201C9B0FB0004228B9 /* TPArrayStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */; };
+		B7B4A5D61CE4CB3500ACDDE2 /* TPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */; };
+		B7B4A5D81CE4CB3500ACDDE2 /* TPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7455FD31C552F800031C79C /* TPKit.framework */; };
 		B7EC6B231C9B102B004228B9 /* TPArrayStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EC6B211C9B102B004228B9 /* TPArrayStream.h */; };
 		B7EC6B241C9B102B004228B9 /* TPArrayStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B221C9B102B004228B9 /* TPArrayStream.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B7455FDF1C552F800031C79C /* PBXContainerItemProxy */ = {
+		B7B4A5D91CE4CB3500ACDDE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7455FCA1C552F800031C79C /* Project object */;
 			proxyType = 1;
@@ -94,7 +80,6 @@
 		B7455FD31C552F800031C79C /* TPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7455FD61C552F800031C79C /* TPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKit.h; sourceTree = "<group>"; };
 		B7455FD81C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7455FDD1C552F800031C79C /* TPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7455FE21C552F800031C79C /* TPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKitTests.m; sourceTree = "<group>"; };
 		B7455FE41C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LazyGenerator.h"; sourceTree = "<group>"; };
@@ -150,6 +135,9 @@
 		B78073FC1C98501A008EE427 /* TPRegexDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRegexDictionary.h; sourceTree = "<group>"; };
 		B78073FD1C98501A008EE427 /* TPRegexDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionary.m; sourceTree = "<group>"; };
 		B78074001C985082008EE427 /* TPRegexDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionaryTests.m; sourceTree = "<group>"; };
+		B7B4A5D31CE4CB3500ACDDE2 /* TPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKitTests.m; sourceTree = "<group>"; };
+		B7B4A5D71CE4CB3500ACDDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStreamTests.m; sourceTree = "<group>"; };
 		B7EC6B211C9B102B004228B9 /* TPArrayStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPArrayStream.h; sourceTree = "<group>"; };
 		B7EC6B221C9B102B004228B9 /* TPArrayStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStream.m; sourceTree = "<group>"; };
@@ -163,11 +151,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7455FDA1C552F800031C79C /* Frameworks */ = {
+		B7B4A5D01CE4CB3500ACDDE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7455FDE1C552F800031C79C /* TPKit.framework in Frameworks */,
+				B7B4A5D81CE4CB3500ACDDE2 /* TPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +180,7 @@
 			children = (
 				B7455FD51C552F800031C79C /* TPKit */,
 				B7455FE11C552F800031C79C /* TPKitTests */,
+				B7B4A5D41CE4CB3500ACDDE2 /* TPKitTests */,
 				B7455FD41C552F800031C79C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -200,7 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				B7455FD31C552F800031C79C /* TPKit.framework */,
-				B7455FDD1C552F800031C79C /* TPKitTests.xctest */,
+				B7B4A5D31CE4CB3500ACDDE2 /* TPKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -376,6 +365,15 @@
 			name = Misc;
 			sourceTree = "<group>";
 		};
+		B7B4A5D41CE4CB3500ACDDE2 /* TPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */,
+				B7B4A5D71CE4CB3500ACDDE2 /* Info.plist */,
+			);
+			path = TPKitTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -432,22 +430,22 @@
 			productReference = B7455FD31C552F800031C79C /* TPKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B7455FDC1C552F800031C79C /* TPKitTests */ = {
+		B7B4A5D21CE4CB3500ACDDE2 /* TPKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7455FEA1C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKitTests" */;
+			buildConfigurationList = B7B4A5DB1CE4CB3500ACDDE2 /* Build configuration list for PBXNativeTarget "TPKitTests" */;
 			buildPhases = (
-				B7455FD91C552F800031C79C /* Sources */,
-				B7455FDA1C552F800031C79C /* Frameworks */,
-				B7455FDB1C552F800031C79C /* Resources */,
+				B7B4A5CF1CE4CB3500ACDDE2 /* Sources */,
+				B7B4A5D01CE4CB3500ACDDE2 /* Frameworks */,
+				B7B4A5D11CE4CB3500ACDDE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7455FE01C552F800031C79C /* PBXTargetDependency */,
+				B7B4A5DA1CE4CB3500ACDDE2 /* PBXTargetDependency */,
 			);
 			name = TPKitTests;
 			productName = TPKitTests;
-			productReference = B7455FDD1C552F800031C79C /* TPKitTests.xctest */;
+			productReference = B7B4A5D31CE4CB3500ACDDE2 /* TPKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -463,8 +461,8 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = B2AK2W5225;
 					};
-					B7455FDC1C552F800031C79C = {
-						CreatedOnToolsVersion = 7.2;
+					B7B4A5D21CE4CB3500ACDDE2 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -481,7 +479,7 @@
 			projectRoot = "";
 			targets = (
 				B7455FD21C552F800031C79C /* TPKit */,
-				B7455FDC1C552F800031C79C /* TPKitTests */,
+				B7B4A5D21CE4CB3500ACDDE2 /* TPKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -494,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7455FDB1C552F800031C79C /* Resources */ = {
+		B7B4A5D11CE4CB3500ACDDE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,35 +533,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7455FD91C552F800031C79C /* Sources */ = {
+		B7B4A5CF1CE4CB3500ACDDE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78074011C985082008EE427 /* TPRegexDictionaryTests.m in Sources */,
-				B78073A11C8F2CAE008EE427 /* TPXMLElementBuilderTests.m in Sources */,
-				B7EC6B201C9B0FB0004228B9 /* TPArrayStreamTests.m in Sources */,
-				B745601D1C5530560031C79C /* NSData+Base64Test.m in Sources */,
-				B745601B1C5530560031C79C /* QHashGeneratorTests.m in Sources */,
-				B78073B71C8F5863008EE427 /* TPXMLNameTests.m in Sources */,
-				B780739D1C8F217E008EE427 /* TPXMLElementTests.m in Sources */,
-				B7455FE31C552F800031C79C /* TPKitTests.m in Sources */,
-				B780738E1C8E0A0C008EE427 /* TPJSONSerializationTests.m in Sources */,
-				B78073A71C8F3238008EE427 /* TPXMLParserTests.m in Sources */,
-				B745601C1C5530560031C79C /* TPSafeFieldExtractingTests.m in Sources */,
-				B78073AD1C8F54AF008EE427 /* TPXMLAttributeTests.m in Sources */,
-				B769029A1CA186E000BF8660 /* TPDataReaderTests.m in Sources */,
-				B745601A1C5530560031C79C /* QArrayGeneratorTests.m in Sources */,
-				B74561D01C5658480031C79C /* TPLoggerTests.m in Sources */,
+				B7B4A5D61CE4CB3500ACDDE2 /* TPKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B7455FE01C552F800031C79C /* PBXTargetDependency */ = {
+		B7B4A5DA1CE4CB3500ACDDE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B7455FD21C552F800031C79C /* TPKit */;
-			targetProxy = B7455FDF1C552F800031C79C /* PBXContainerItemProxy */;
+			targetProxy = B7B4A5D91CE4CB3500ACDDE2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -675,7 +659,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -698,7 +682,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -708,21 +692,26 @@
 			};
 			name = Release;
 		};
-		B7455FEB1C552F800031C79C /* Debug */ = {
+		B7B4A5DC1CE4CB3500ACDDE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
 				INFOPLIST_FILE = TPKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B7455FEC1C552F800031C79C /* Release */ = {
+		B7B4A5DD1CE4CB3500ACDDE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
 				INFOPLIST_FILE = TPKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKitTests;
@@ -751,14 +740,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7455FEA1C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKitTests" */ = {
+		B7B4A5DB1CE4CB3500ACDDE2 /* Build configuration list for PBXNativeTarget "TPKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7455FEB1C552F800031C79C /* Debug */,
-				B7455FEC1C552F800031C79C /* Release */,
+				B7B4A5DC1CE4CB3500ACDDE2 /* Debug */,
+				B7B4A5DD1CE4CB3500ACDDE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
