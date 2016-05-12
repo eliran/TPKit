@@ -1,5 +1,7 @@
 # TPKit
 
+![](https://travis-ci.org/eliran/TPKit.svg?branch=master)
+
 A Collection of useful utility classes and extensions
 
 ## Classes
@@ -15,9 +17,9 @@ TPLogger allows adding logging messages with different logging levels and enable
 In addition, different log reporters can be attached to the logger object, which allows different processing of the log to occur.
 
 Usage:
+
         [TPLogger log:level message:@"message %@", argument]; // using defaultLogger
         [loggerObject error:@"error %@", argument]; // using alloc/init object
-
         [[TPLogger defaultLogger] attachReporter:uploadLogToServerReporter]
 
 ## Lazy Array/Dictionary

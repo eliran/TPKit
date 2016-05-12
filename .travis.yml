@@ -1,0 +1,3 @@
+Language: objective-c
+xcode_project: TPKit.xcodeproj 
+xcode_scheme: TPKitTests
