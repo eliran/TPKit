@@ -1,0 +1,17 @@
+<view>
+  <let x="1" />
+  <let id="area">
+    <label title="hello">
+      <image texture="test" />
+    </label>
+  </let>
+
+
+  <left>
+    <use id="area" />
+  </left>
+
+  <right>
+    <use id="area" />
+  </right>
+</view>

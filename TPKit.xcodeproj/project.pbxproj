@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71D0E7F1C7C1FC100E38938 /* TPDataReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B71D0E7D1C7C1FC100E38938 /* TPDataReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71D0E801C7C1FC100E38938 /* TPDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B71D0E7E1C7C1FC100E38938 /* TPDataReader.m */; };
+		B71D0E8F1C7E245300E38938 /* TPReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B71D0E8D1C7E245300E38938 /* TPReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71D0E901C7E245300E38938 /* TPReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B71D0E8E1C7E245300E38938 /* TPReader.m */; };
+		B71D0E971C80D1A400E38938 /* TPDelegatedReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B71D0E951C80D1A400E38938 /* TPDelegatedReader.h */; };
+		B71D0E981C80D1A400E38938 /* TPDelegatedReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B71D0E961C80D1A400E38938 /* TPDelegatedReader.m */; };
+		B7455FD71C552F800031C79C /* TPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FD61C552F800031C79C /* TPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7455FDE1C552F800031C79C /* TPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7455FD31C552F800031C79C /* TPKit.framework */; };
+		B7455FE31C552F800031C79C /* TPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FE21C552F800031C79C /* TPKitTests.m */; };
+		B7455FFF1C552FA50031C79C /* NSArray+LazyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560001C552FA50031C79C /* NSArray+LazyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FEE1C552FA50031C79C /* NSArray+LazyGenerator.m */; };
+		B74560011C552FA50031C79C /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FEF1C552FA50031C79C /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560021C552FA50031C79C /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FF01C552FA50031C79C /* NSData+AES256.m */; };
+		B74560031C552FA50031C79C /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FF11C552FA50031C79C /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560041C552FA50031C79C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FF21C552FA50031C79C /* NSData+Base64.m */; };
+		B74560051C552FA50031C79C /* NSDictionary+LazyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FF31C552FA50031C79C /* NSDictionary+LazyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560061C552FA50031C79C /* NSDictionary+LazyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FF41C552FA50031C79C /* NSDictionary+LazyGenerator.m */; };
+		B74560071C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FF51C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560081C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FF61C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.m */; };
+		B74560091C552FA50031C79C /* NSString+Directories.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FF71C552FA50031C79C /* NSString+Directories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B745600A1C552FA50031C79C /* NSString+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FF81C552FA50031C79C /* NSString+Directories.m */; };
+		B745600B1C552FA50031C79C /* QArrayGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FF91C552FA50031C79C /* QArrayGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B745600C1C552FA50031C79C /* QArrayGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FFA1C552FA50031C79C /* QArrayGenerator.m */; };
+		B745600D1C552FA50031C79C /* QHashGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FFB1C552FA50031C79C /* QHashGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B745600E1C552FA50031C79C /* QHashGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FFC1C552FA50031C79C /* QHashGenerator.m */; };
+		B745600F1C552FA50031C79C /* QRange.h in Headers */ = {isa = PBXBuildFile; fileRef = B7455FFD1C552FA50031C79C /* QRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560101C552FA50031C79C /* QRange.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455FFE1C552FA50031C79C /* QRange.m */; };
+		B745601A1C5530560031C79C /* QArrayGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560161C5530560031C79C /* QArrayGeneratorTests.m */; };
+		B745601B1C5530560031C79C /* QHashGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560171C5530560031C79C /* QHashGeneratorTests.m */; };
+		B745601C1C5530560031C79C /* TPSafeFieldExtractingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */; };
+		B745601D1C5530560031C79C /* NSData+Base64Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560191C5530560031C79C /* NSData+Base64Test.m */; };
+		B74560721C5551810031C79C /* TPPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = B74560701C5551810031C79C /* TPPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74560731C5551810031C79C /* TPPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560711C5551810031C79C /* TPPromise.m */; };
+		B74561D01C5658480031C79C /* TPLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74561CF1C5658480031C79C /* TPLoggerTests.m */; };
+		B74561D31C5659830031C79C /* TPLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B74561D11C5659830031C79C /* TPLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74561D41C5659830031C79C /* TPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B74561D21C5659830031C79C /* TPLogger.m */; };
+		B769029A1CA186E000BF8660 /* TPDataReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B76902991CA186E000BF8660 /* TPDataReaderTests.m */; };
+		B780738A1C8E09E5008EE427 /* TPJSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073881C8E09E5008EE427 /* TPJSONSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B780738B1C8E09E5008EE427 /* TPJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073891C8E09E5008EE427 /* TPJSONSerialization.m */; };
+		B780738E1C8E0A0C008EE427 /* TPJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */; };
+		B78073911C8E290C008EE427 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B780738F1C8E290C008EE427 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073921C8E290C008EE427 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073901C8E290C008EE427 /* NSString+Extensions.m */; };
+		B78073951C8E2A7F008EE427 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073931C8E2A7F008EE427 /* NSData+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073961C8E2A7F008EE427 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073941C8E2A7F008EE427 /* NSData+Extensions.m */; };
+		B78073991C8F1FE9008EE427 /* TPXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073971C8F1FE9008EE427 /* TPXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B780739A1C8F1FE9008EE427 /* TPXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073981C8F1FE9008EE427 /* TPXMLElement.m */; };
+		B780739D1C8F217E008EE427 /* TPXMLElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780739C1C8F217E008EE427 /* TPXMLElementTests.m */; };
+		B78073A11C8F2CAE008EE427 /* TPXMLElementBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A01C8F2CAE008EE427 /* TPXMLElementBuilderTests.m */; };
+		B78073A41C8F2D49008EE427 /* TPXMLElementBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073A21C8F2D49008EE427 /* TPXMLElementBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073A51C8F2D49008EE427 /* TPXMLElementBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A31C8F2D49008EE427 /* TPXMLElementBuilder.m */; };
+		B78073A71C8F3238008EE427 /* TPXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A61C8F3238008EE427 /* TPXMLParserTests.m */; };
+		B78073AA1C8F36AD008EE427 /* TPXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073A81C8F36AD008EE427 /* TPXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073AB1C8F36AD008EE427 /* TPXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A91C8F36AD008EE427 /* TPXMLParser.m */; };
+		B78073AD1C8F54AF008EE427 /* TPXMLAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073AC1C8F54AF008EE427 /* TPXMLAttributeTests.m */; };
+		B78073B01C8F56E7008EE427 /* TPXMLAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073AE1C8F56E7008EE427 /* TPXMLAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073B11C8F56E7008EE427 /* TPXMLAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073AF1C8F56E7008EE427 /* TPXMLAttribute.m */; };
+		B78073B41C8F57A4008EE427 /* TPXMLName.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073B21C8F57A4008EE427 /* TPXMLName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78073B51C8F57A4008EE427 /* TPXMLName.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B31C8F57A4008EE427 /* TPXMLName.m */; };
+		B78073B71C8F5863008EE427 /* TPXMLNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B61C8F5863008EE427 /* TPXMLNameTests.m */; };
+		B78073FE1C98501A008EE427 /* TPRegexDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073FC1C98501A008EE427 /* TPRegexDictionary.h */; };
+		B78073FF1C98501A008EE427 /* TPRegexDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073FD1C98501A008EE427 /* TPRegexDictionary.m */; };
+		B78074011C985082008EE427 /* TPRegexDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78074001C985082008EE427 /* TPRegexDictionaryTests.m */; };
+		B7EC6B201C9B0FB0004228B9 /* TPArrayStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */; };
+		B7EC6B231C9B102B004228B9 /* TPArrayStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EC6B211C9B102B004228B9 /* TPArrayStream.h */; };
+		B7EC6B241C9B102B004228B9 /* TPArrayStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B221C9B102B004228B9 /* TPArrayStream.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7455FDF1C552F800031C79C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7455FCA1C552F800031C79C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7455FD21C552F800031C79C;
+			remoteInfo = TPKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B71D0E7D1C7C1FC100E38938 /* TPDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDataReader.h; sourceTree = "<group>"; };
+		B71D0E7E1C7C1FC100E38938 /* TPDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataReader.m; sourceTree = "<group>"; };
+		B71D0E8D1C7E245300E38938 /* TPReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPReader.h; sourceTree = "<group>"; };
+		B71D0E8E1C7E245300E38938 /* TPReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPReader.m; sourceTree = "<group>"; };
+		B71D0E951C80D1A400E38938 /* TPDelegatedReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDelegatedReader.h; sourceTree = "<group>"; };
+		B71D0E961C80D1A400E38938 /* TPDelegatedReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDelegatedReader.m; sourceTree = "<group>"; };
+		B7455FD31C552F800031C79C /* TPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7455FD61C552F800031C79C /* TPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKit.h; sourceTree = "<group>"; };
+		B7455FD81C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7455FDD1C552F800031C79C /* TPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7455FE21C552F800031C79C /* TPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKitTests.m; sourceTree = "<group>"; };
+		B7455FE41C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LazyGenerator.h"; sourceTree = "<group>"; };
+		B7455FEE1C552FA50031C79C /* NSArray+LazyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LazyGenerator.m"; sourceTree = "<group>"; };
+		B7455FEF1C552FA50031C79C /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		B7455FF01C552FA50031C79C /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		B7455FF11C552FA50031C79C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B7455FF21C552FA50031C79C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		B7455FF31C552FA50031C79C /* NSDictionary+LazyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LazyGenerator.h"; sourceTree = "<group>"; };
+		B7455FF41C552FA50031C79C /* NSDictionary+LazyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LazyGenerator.m"; sourceTree = "<group>"; };
+		B7455FF51C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TPSafeFieldExtracting.h"; sourceTree = "<group>"; };
+		B7455FF61C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TPSafeFieldExtracting.m"; sourceTree = "<group>"; };
+		B7455FF71C552FA50031C79C /* NSString+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Directories.h"; sourceTree = "<group>"; };
+		B7455FF81C552FA50031C79C /* NSString+Directories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Directories.m"; sourceTree = "<group>"; };
+		B7455FF91C552FA50031C79C /* QArrayGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QArrayGenerator.h; sourceTree = "<group>"; };
+		B7455FFA1C552FA50031C79C /* QArrayGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QArrayGenerator.m; sourceTree = "<group>"; };
+		B7455FFB1C552FA50031C79C /* QHashGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHashGenerator.h; sourceTree = "<group>"; };
+		B7455FFC1C552FA50031C79C /* QHashGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHashGenerator.m; sourceTree = "<group>"; };
+		B7455FFD1C552FA50031C79C /* QRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRange.h; sourceTree = "<group>"; };
+		B7455FFE1C552FA50031C79C /* QRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRange.m; sourceTree = "<group>"; };
+		B74560161C5530560031C79C /* QArrayGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QArrayGeneratorTests.m; sourceTree = "<group>"; };
+		B74560171C5530560031C79C /* QHashGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHashGeneratorTests.m; sourceTree = "<group>"; };
+		B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSafeFieldExtractingTests.m; sourceTree = "<group>"; };
+		B74560191C5530560031C79C /* NSData+Base64Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Test.m"; sourceTree = "<group>"; };
+		B74560701C5551810031C79C /* TPPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPromise.h; sourceTree = "<group>"; };
+		B74560711C5551810031C79C /* TPPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPromise.m; sourceTree = "<group>"; };
+		B74561CF1C5658480031C79C /* TPLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLoggerTests.m; sourceTree = "<group>"; };
+		B74561D11C5659830031C79C /* TPLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLogger.h; sourceTree = "<group>"; };
+		B74561D21C5659830031C79C /* TPLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLogger.m; sourceTree = "<group>"; };
+		B76902991CA186E000BF8660 /* TPDataReaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDataReaderTests.m; sourceTree = "<group>"; };
+		B78073881C8E09E5008EE427 /* TPJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPJSONSerialization.h; sourceTree = "<group>"; };
+		B78073891C8E09E5008EE427 /* TPJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPJSONSerialization.m; sourceTree = "<group>"; };
+		B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPJSONSerializationTests.m; sourceTree = "<group>"; };
+		B780738F1C8E290C008EE427 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		B78073901C8E290C008EE427 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		B78073931C8E2A7F008EE427 /* NSData+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extensions.h"; sourceTree = "<group>"; };
+		B78073941C8E2A7F008EE427 /* NSData+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extensions.m"; sourceTree = "<group>"; };
+		B78073971C8F1FE9008EE427 /* TPXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMLElement.h; sourceTree = "<group>"; };
+		B78073981C8F1FE9008EE427 /* TPXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLElement.m; sourceTree = "<group>"; };
+		B780739C1C8F217E008EE427 /* TPXMLElementTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLElementTests.m; sourceTree = "<group>"; };
+		B78073A01C8F2CAE008EE427 /* TPXMLElementBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLElementBuilderTests.m; sourceTree = "<group>"; };
+		B78073A21C8F2D49008EE427 /* TPXMLElementBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMLElementBuilder.h; sourceTree = "<group>"; };
+		B78073A31C8F2D49008EE427 /* TPXMLElementBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLElementBuilder.m; sourceTree = "<group>"; };
+		B78073A61C8F3238008EE427 /* TPXMLParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLParserTests.m; sourceTree = "<group>"; };
+		B78073A81C8F36AD008EE427 /* TPXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMLParser.h; sourceTree = "<group>"; };
+		B78073A91C8F36AD008EE427 /* TPXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLParser.m; sourceTree = "<group>"; };
+		B78073AC1C8F54AF008EE427 /* TPXMLAttributeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLAttributeTests.m; sourceTree = "<group>"; };
+		B78073AE1C8F56E7008EE427 /* TPXMLAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMLAttribute.h; sourceTree = "<group>"; };
+		B78073AF1C8F56E7008EE427 /* TPXMLAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLAttribute.m; sourceTree = "<group>"; };
+		B78073B21C8F57A4008EE427 /* TPXMLName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMLName.h; sourceTree = "<group>"; };
+		B78073B31C8F57A4008EE427 /* TPXMLName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLName.m; sourceTree = "<group>"; };
+		B78073B61C8F5863008EE427 /* TPXMLNameTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMLNameTests.m; sourceTree = "<group>"; };
+		B78073FC1C98501A008EE427 /* TPRegexDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRegexDictionary.h; sourceTree = "<group>"; };
+		B78073FD1C98501A008EE427 /* TPRegexDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionary.m; sourceTree = "<group>"; };
+		B78074001C985082008EE427 /* TPRegexDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionaryTests.m; sourceTree = "<group>"; };
+		B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStreamTests.m; sourceTree = "<group>"; };
+		B7EC6B211C9B102B004228B9 /* TPArrayStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPArrayStream.h; sourceTree = "<group>"; };
+		B7EC6B221C9B102B004228B9 /* TPArrayStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStream.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7455FCF1C552F800031C79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455FDA1C552F800031C79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7455FDE1C552F800031C79C /* TPKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71D0EAA1C83FDDD00E38938 /* Readers */ = {
+			isa = PBXGroup;
+			children = (
+				B71D0E8D1C7E245300E38938 /* TPReader.h */,
+				B71D0E8E1C7E245300E38938 /* TPReader.m */,
+				B71D0E7D1C7C1FC100E38938 /* TPDataReader.h */,
+				B71D0E7E1C7C1FC100E38938 /* TPDataReader.m */,
+				B71D0E951C80D1A400E38938 /* TPDelegatedReader.h */,
+				B71D0E961C80D1A400E38938 /* TPDelegatedReader.m */,
+			);
+			name = Readers;
+			sourceTree = "<group>";
+		};
+		B7455FC91C552F800031C79C = {
+			isa = PBXGroup;
+			children = (
+				B7455FD51C552F800031C79C /* TPKit */,
+				B7455FE11C552F800031C79C /* TPKitTests */,
+				B7455FD41C552F800031C79C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7455FD41C552F800031C79C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7455FD31C552F800031C79C /* TPKit.framework */,
+				B7455FDD1C552F800031C79C /* TPKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7455FD51C552F800031C79C /* TPKit */ = {
+			isa = PBXGroup;
+			children = (
+				B780739B1C8F1FF1008EE427 /* XMLNode */,
+				B780738C1C8E09EB008EE427 /* JSON */,
+				B71D0EAA1C83FDDD00E38938 /* Readers */,
+				B74561D51C5659890031C79C /* Logger */,
+				B74560741C55518E0031C79C /* Promise */,
+				B74560151C5530050031C79C /* Core Class Extensions */,
+				B78074021C98554A008EE427 /* Misc */,
+				B74560111C552FB10031C79C /* Lazy Arrays */,
+				B7455FD61C552F800031C79C /* TPKit.h */,
+				B7455FD81C552F800031C79C /* Info.plist */,
+			);
+			path = TPKit;
+			sourceTree = "<group>";
+		};
+		B7455FE11C552F800031C79C /* TPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B780739E1C8F2BE1008EE427 /* XMLNodeTests */,
+				B780739F1C8F2BF3008EE427 /* Generator Tests */,
+				B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */,
+				B74560191C5530560031C79C /* NSData+Base64Test.m */,
+				B7455FE21C552F800031C79C /* TPKitTests.m */,
+				B7455FE41C552F800031C79C /* Info.plist */,
+				B74561CF1C5658480031C79C /* TPLoggerTests.m */,
+				B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */,
+				B78074001C985082008EE427 /* TPRegexDictionaryTests.m */,
+				B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */,
+				B76902991CA186E000BF8660 /* TPDataReaderTests.m */,
+			);
+			path = TPKitTests;
+			sourceTree = "<group>";
+		};
+		B74560111C552FB10031C79C /* Lazy Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				B7455FFD1C552FA50031C79C /* QRange.h */,
+				B7455FFE1C552FA50031C79C /* QRange.m */,
+				B7455FF31C552FA50031C79C /* NSDictionary+LazyGenerator.h */,
+				B7455FF41C552FA50031C79C /* NSDictionary+LazyGenerator.m */,
+				B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */,
+				B7455FEE1C552FA50031C79C /* NSArray+LazyGenerator.m */,
+				B7455FF91C552FA50031C79C /* QArrayGenerator.h */,
+				B7455FFA1C552FA50031C79C /* QArrayGenerator.m */,
+				B7455FFB1C552FA50031C79C /* QHashGenerator.h */,
+				B7455FFC1C552FA50031C79C /* QHashGenerator.m */,
+			);
+			name = "Lazy Arrays";
+			sourceTree = "<group>";
+		};
+		B74560121C552FCF0031C79C /* NSData+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7455FEF1C552FA50031C79C /* NSData+AES256.h */,
+				B7455FF01C552FA50031C79C /* NSData+AES256.m */,
+				B7455FF11C552FA50031C79C /* NSData+Base64.h */,
+				B7455FF21C552FA50031C79C /* NSData+Base64.m */,
+				B78073931C8E2A7F008EE427 /* NSData+Extensions.h */,
+				B78073941C8E2A7F008EE427 /* NSData+Extensions.m */,
+			);
+			name = "NSData+Extensions";
+			sourceTree = "<group>";
+		};
+		B74560131C552FE90031C79C /* NSDictionary+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7455FF51C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.h */,
+				B7455FF61C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.m */,
+			);
+			name = "NSDictionary+Extensions";
+			sourceTree = "<group>";
+		};
+		B74560141C552FF20031C79C /* NSString+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7455FF71C552FA50031C79C /* NSString+Directories.h */,
+				B7455FF81C552FA50031C79C /* NSString+Directories.m */,
+				B780738F1C8E290C008EE427 /* NSString+Extensions.h */,
+				B78073901C8E290C008EE427 /* NSString+Extensions.m */,
+			);
+			name = "NSString+Extensions";
+			sourceTree = "<group>";
+		};
+		B74560151C5530050031C79C /* Core Class Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B74560121C552FCF0031C79C /* NSData+Extensions */,
+				B74560131C552FE90031C79C /* NSDictionary+Extensions */,
+				B74560141C552FF20031C79C /* NSString+Extensions */,
+			);
+			name = "Core Class Extensions";
+			sourceTree = "<group>";
+		};
+		B74560741C55518E0031C79C /* Promise */ = {
+			isa = PBXGroup;
+			children = (
+				B74560701C5551810031C79C /* TPPromise.h */,
+				B74560711C5551810031C79C /* TPPromise.m */,
+			);
+			name = Promise;
+			sourceTree = "<group>";
+		};
+		B74561D51C5659890031C79C /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				B74561D11C5659830031C79C /* TPLogger.h */,
+				B74561D21C5659830031C79C /* TPLogger.m */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		B780738C1C8E09EB008EE427 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B78073881C8E09E5008EE427 /* TPJSONSerialization.h */,
+				B78073891C8E09E5008EE427 /* TPJSONSerialization.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		B780739B1C8F1FF1008EE427 /* XMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				B78073971C8F1FE9008EE427 /* TPXMLElement.h */,
+				B78073981C8F1FE9008EE427 /* TPXMLElement.m */,
+				B78073A21C8F2D49008EE427 /* TPXMLElementBuilder.h */,
+				B78073A31C8F2D49008EE427 /* TPXMLElementBuilder.m */,
+				B78073A81C8F36AD008EE427 /* TPXMLParser.h */,
+				B78073A91C8F36AD008EE427 /* TPXMLParser.m */,
+				B78073AE1C8F56E7008EE427 /* TPXMLAttribute.h */,
+				B78073AF1C8F56E7008EE427 /* TPXMLAttribute.m */,
+				B78073B21C8F57A4008EE427 /* TPXMLName.h */,
+				B78073B31C8F57A4008EE427 /* TPXMLName.m */,
+			);
+			name = XMLNode;
+			sourceTree = "<group>";
+		};
+		B780739E1C8F2BE1008EE427 /* XMLNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B780739C1C8F217E008EE427 /* TPXMLElementTests.m */,
+				B78073A01C8F2CAE008EE427 /* TPXMLElementBuilderTests.m */,
+				B78073A61C8F3238008EE427 /* TPXMLParserTests.m */,
+				B78073AC1C8F54AF008EE427 /* TPXMLAttributeTests.m */,
+				B78073B61C8F5863008EE427 /* TPXMLNameTests.m */,
+			);
+			name = XMLNodeTests;
+			sourceTree = "<group>";
+		};
+		B780739F1C8F2BF3008EE427 /* Generator Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B74560161C5530560031C79C /* QArrayGeneratorTests.m */,
+				B74560171C5530560031C79C /* QHashGeneratorTests.m */,
+			);
+			name = "Generator Tests";
+			sourceTree = "<group>";
+		};
+		B78074021C98554A008EE427 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				B78073FC1C98501A008EE427 /* TPRegexDictionary.h */,
+				B78073FD1C98501A008EE427 /* TPRegexDictionary.m */,
+				B7EC6B211C9B102B004228B9 /* TPArrayStream.h */,
+				B7EC6B221C9B102B004228B9 /* TPArrayStream.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7455FD01C552F800031C79C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74560031C552FA50031C79C /* NSData+Base64.h in Headers */,
+				B7EC6B231C9B102B004228B9 /* TPArrayStream.h in Headers */,
+				B74560071C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.h in Headers */,
+				B78073FE1C98501A008EE427 /* TPRegexDictionary.h in Headers */,
+				B74560011C552FA50031C79C /* NSData+AES256.h in Headers */,
+				B780738A1C8E09E5008EE427 /* TPJSONSerialization.h in Headers */,
+				B745600B1C552FA50031C79C /* QArrayGenerator.h in Headers */,
+				B78073911C8E290C008EE427 /* NSString+Extensions.h in Headers */,
+				B74561D31C5659830031C79C /* TPLogger.h in Headers */,
+				B745600D1C552FA50031C79C /* QHashGenerator.h in Headers */,
+				B74560091C552FA50031C79C /* NSString+Directories.h in Headers */,
+				B71D0E971C80D1A400E38938 /* TPDelegatedReader.h in Headers */,
+				B7455FD71C552F800031C79C /* TPKit.h in Headers */,
+				B78073AA1C8F36AD008EE427 /* TPXMLParser.h in Headers */,
+				B78073A41C8F2D49008EE427 /* TPXMLElementBuilder.h in Headers */,
+				B78073991C8F1FE9008EE427 /* TPXMLElement.h in Headers */,
+				B745600F1C552FA50031C79C /* QRange.h in Headers */,
+				B78073B41C8F57A4008EE427 /* TPXMLName.h in Headers */,
+				B71D0E8F1C7E245300E38938 /* TPReader.h in Headers */,
+				B71D0E7F1C7C1FC100E38938 /* TPDataReader.h in Headers */,
+				B74560721C5551810031C79C /* TPPromise.h in Headers */,
+				B74560051C552FA50031C79C /* NSDictionary+LazyGenerator.h in Headers */,
+				B78073B01C8F56E7008EE427 /* TPXMLAttribute.h in Headers */,
+				B7455FFF1C552FA50031C79C /* NSArray+LazyGenerator.h in Headers */,
+				B78073951C8E2A7F008EE427 /* NSData+Extensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7455FD21C552F800031C79C /* TPKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7455FE71C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKit" */;
+			buildPhases = (
+				B7455FCE1C552F800031C79C /* Sources */,
+				B7455FCF1C552F800031C79C /* Frameworks */,
+				B7455FD01C552F800031C79C /* Headers */,
+				B7455FD11C552F800031C79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKit;
+			productName = TPKit;
+			productReference = B7455FD31C552F800031C79C /* TPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7455FDC1C552F800031C79C /* TPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7455FEA1C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKitTests" */;
+			buildPhases = (
+				B7455FD91C552F800031C79C /* Sources */,
+				B7455FDA1C552F800031C79C /* Frameworks */,
+				B7455FDB1C552F800031C79C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7455FE01C552F800031C79C /* PBXTargetDependency */,
+			);
+			name = TPKitTests;
+			productName = TPKitTests;
+			productReference = B7455FDD1C552F800031C79C /* TPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7455FCA1C552F800031C79C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Threeplay Inc.";
+				TargetAttributes = {
+					B7455FD21C552F800031C79C = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B2AK2W5225;
+					};
+					B7455FDC1C552F800031C79C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B7455FCD1C552F800031C79C /* Build configuration list for PBXProject "TPKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7455FC91C552F800031C79C;
+			productRefGroup = B7455FD41C552F800031C79C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7455FD21C552F800031C79C /* TPKit */,
+				B7455FDC1C552F800031C79C /* TPKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7455FD11C552F800031C79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455FDB1C552F800031C79C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7455FCE1C552F800031C79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74560061C552FA50031C79C /* NSDictionary+LazyGenerator.m in Sources */,
+				B74561D41C5659830031C79C /* TPLogger.m in Sources */,
+				B78073921C8E290C008EE427 /* NSString+Extensions.m in Sources */,
+				B74560101C552FA50031C79C /* QRange.m in Sources */,
+				B74560021C552FA50031C79C /* NSData+AES256.m in Sources */,
+				B78073FF1C98501A008EE427 /* TPRegexDictionary.m in Sources */,
+				B7EC6B241C9B102B004228B9 /* TPArrayStream.m in Sources */,
+				B745600C1C552FA50031C79C /* QArrayGenerator.m in Sources */,
+				B78073A51C8F2D49008EE427 /* TPXMLElementBuilder.m in Sources */,
+				B74560001C552FA50031C79C /* NSArray+LazyGenerator.m in Sources */,
+				B78073B11C8F56E7008EE427 /* TPXMLAttribute.m in Sources */,
+				B745600A1C552FA50031C79C /* NSString+Directories.m in Sources */,
+				B78073961C8E2A7F008EE427 /* NSData+Extensions.m in Sources */,
+				B74560041C552FA50031C79C /* NSData+Base64.m in Sources */,
+				B74560081C552FA50031C79C /* NSDictionary+TPSafeFieldExtracting.m in Sources */,
+				B71D0E801C7C1FC100E38938 /* TPDataReader.m in Sources */,
+				B78073B51C8F57A4008EE427 /* TPXMLName.m in Sources */,
+				B780738B1C8E09E5008EE427 /* TPJSONSerialization.m in Sources */,
+				B745600E1C552FA50031C79C /* QHashGenerator.m in Sources */,
+				B71D0E981C80D1A400E38938 /* TPDelegatedReader.m in Sources */,
+				B74560731C5551810031C79C /* TPPromise.m in Sources */,
+				B78073AB1C8F36AD008EE427 /* TPXMLParser.m in Sources */,
+				B71D0E901C7E245300E38938 /* TPReader.m in Sources */,
+				B780739A1C8F1FE9008EE427 /* TPXMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7455FD91C552F800031C79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78074011C985082008EE427 /* TPRegexDictionaryTests.m in Sources */,
+				B78073A11C8F2CAE008EE427 /* TPXMLElementBuilderTests.m in Sources */,
+				B7EC6B201C9B0FB0004228B9 /* TPArrayStreamTests.m in Sources */,
+				B745601D1C5530560031C79C /* NSData+Base64Test.m in Sources */,
+				B745601B1C5530560031C79C /* QHashGeneratorTests.m in Sources */,
+				B78073B71C8F5863008EE427 /* TPXMLNameTests.m in Sources */,
+				B780739D1C8F217E008EE427 /* TPXMLElementTests.m in Sources */,
+				B7455FE31C552F800031C79C /* TPKitTests.m in Sources */,
+				B780738E1C8E0A0C008EE427 /* TPJSONSerializationTests.m in Sources */,
+				B78073A71C8F3238008EE427 /* TPXMLParserTests.m in Sources */,
+				B745601C1C5530560031C79C /* TPSafeFieldExtractingTests.m in Sources */,
+				B78073AD1C8F54AF008EE427 /* TPXMLAttributeTests.m in Sources */,
+				B769029A1CA186E000BF8660 /* TPDataReaderTests.m in Sources */,
+				B745601A1C5530560031C79C /* QArrayGeneratorTests.m in Sources */,
+				B74561D01C5658480031C79C /* TPLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7455FE01C552F800031C79C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7455FD21C552F800031C79C /* TPKit */;
+			targetProxy = B7455FDF1C552F800031C79C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7455FE51C552F800031C79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7455FE61C552F800031C79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7455FE81C552F800031C79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path";
+				INFOPLIST_FILE = TPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Debug;
+		};
+		B7455FE91C552F800031C79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path";
+				INFOPLIST_FILE = TPKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+			};
+			name = Release;
+		};
+		B7455FEB1C552F800031C79C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7455FEC1C552F800031C79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeplay.TPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7455FCD1C552F800031C79C /* Build configuration list for PBXProject "TPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455FE51C552F800031C79C /* Debug */,
+				B7455FE61C552F800031C79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7455FE71C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455FE81C552F800031C79C /* Debug */,
+				B7455FE91C552F800031C79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7455FEA1C552F800031C79C /* Build configuration list for PBXNativeTarget "TPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7455FEB1C552F800031C79C /* Debug */,
+				B7455FEC1C552F800031C79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7455FCA1C552F800031C79C /* Project object */;
+}
