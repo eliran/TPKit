@@ -1,4 +1,5 @@
 language: objective-c
+osx_image: xcode7
 xcode_project: TPKit.xcodeproj 
 xcode_scheme: TPKit
 xcode_sdk: iphonesimulator
