@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B7455FDC1C552F800031C79C"
+               BlueprintIdentifier = "B7B4A5D21CE4CB3500ACDDE2"
                BuildableName = "TPKitTests.xctest"
                BlueprintName = "TPKitTests"
                ReferencedContainer = "container:TPKit.xcodeproj">
