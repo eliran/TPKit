@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(NSInteger)integerField:(id<NSCopying>)field;
 -(double)realField:(id<NSCopying>)field withDefault:(double)defaultValue;
 -(double)realField:(id<NSCopying>)field;
--(nullable id)field:(id<NSCopying>)field withDefault:(nullable id)defaultValue;
+-(nullable id)field:(nullable id<NSCopying>)field withDefault:(nullable id)defaultValue;
 
 // Extended fields
 

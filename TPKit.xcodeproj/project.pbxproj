@@ -54,8 +54,20 @@
 		B78073B51C8F57A4008EE427 /* TPXMLName.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B31C8F57A4008EE427 /* TPXMLName.m */; };
 		B78073FE1C98501A008EE427 /* TPRegexDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B78073FC1C98501A008EE427 /* TPRegexDictionary.h */; };
 		B78073FF1C98501A008EE427 /* TPRegexDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073FD1C98501A008EE427 /* TPRegexDictionary.m */; };
-		B7B4A5D61CE4CB3500ACDDE2 /* TPKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */; };
 		B7B4A5D81CE4CB3500ACDDE2 /* TPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7455FD31C552F800031C79C /* TPKit.framework */; };
+		B7B4A5DE1CE4E1D600ACDDE2 /* TPSafeFieldExtractingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */; };
+		B7B4A5DF1CE4E1ED00ACDDE2 /* TPLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74561CF1C5658480031C79C /* TPLoggerTests.m */; };
+		B7B4A5E01CE4E1F000ACDDE2 /* TPJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */; };
+		B7B4A5E41CE4E1F700ACDDE2 /* TPRegexDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78074001C985082008EE427 /* TPRegexDictionaryTests.m */; };
+		B7B4A5E51CE4E1F700ACDDE2 /* TPArrayStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */; };
+		B7B4A5E61CE4E1F700ACDDE2 /* TPDataReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B76902991CA186E000BF8660 /* TPDataReaderTests.m */; };
+		B7B4A5E71CE4E20100ACDDE2 /* QArrayGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560161C5530560031C79C /* QArrayGeneratorTests.m */; };
+		B7B4A5E81CE4E20100ACDDE2 /* QHashGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74560171C5530560031C79C /* QHashGeneratorTests.m */; };
+		B7B4A5E91CE4E20700ACDDE2 /* TPXMLElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B780739C1C8F217E008EE427 /* TPXMLElementTests.m */; };
+		B7B4A5EA1CE4E20700ACDDE2 /* TPXMLElementBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A01C8F2CAE008EE427 /* TPXMLElementBuilderTests.m */; };
+		B7B4A5EB1CE4E20700ACDDE2 /* TPXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073A61C8F3238008EE427 /* TPXMLParserTests.m */; };
+		B7B4A5EC1CE4E20700ACDDE2 /* TPXMLAttributeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073AC1C8F54AF008EE427 /* TPXMLAttributeTests.m */; };
+		B7B4A5ED1CE4E20700ACDDE2 /* TPXMLNameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78073B61C8F5863008EE427 /* TPXMLNameTests.m */; };
 		B7EC6B231C9B102B004228B9 /* TPArrayStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EC6B211C9B102B004228B9 /* TPArrayStream.h */; };
 		B7EC6B241C9B102B004228B9 /* TPArrayStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EC6B221C9B102B004228B9 /* TPArrayStream.m */; };
 /* End PBXBuildFile section */
@@ -80,7 +92,6 @@
 		B7455FD31C552F800031C79C /* TPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7455FD61C552F800031C79C /* TPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPKit.h; sourceTree = "<group>"; };
 		B7455FD81C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7455FE21C552F800031C79C /* TPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKitTests.m; sourceTree = "<group>"; };
 		B7455FE41C552F800031C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7455FED1C552FA50031C79C /* NSArray+LazyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LazyGenerator.h"; sourceTree = "<group>"; };
 		B7455FEE1C552FA50031C79C /* NSArray+LazyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LazyGenerator.m"; sourceTree = "<group>"; };
@@ -103,7 +114,6 @@
 		B74560161C5530560031C79C /* QArrayGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QArrayGeneratorTests.m; sourceTree = "<group>"; };
 		B74560171C5530560031C79C /* QHashGeneratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHashGeneratorTests.m; sourceTree = "<group>"; };
 		B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSafeFieldExtractingTests.m; sourceTree = "<group>"; };
-		B74560191C5530560031C79C /* NSData+Base64Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Test.m"; sourceTree = "<group>"; };
 		B74560701C5551810031C79C /* TPPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPromise.h; sourceTree = "<group>"; };
 		B74560711C5551810031C79C /* TPPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPromise.m; sourceTree = "<group>"; };
 		B74561CF1C5658480031C79C /* TPLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLoggerTests.m; sourceTree = "<group>"; };
@@ -136,8 +146,6 @@
 		B78073FD1C98501A008EE427 /* TPRegexDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionary.m; sourceTree = "<group>"; };
 		B78074001C985082008EE427 /* TPRegexDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRegexDictionaryTests.m; sourceTree = "<group>"; };
 		B7B4A5D31CE4CB3500ACDDE2 /* TPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPKitTests.m; sourceTree = "<group>"; };
-		B7B4A5D71CE4CB3500ACDDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7EC6B1F1C9B0FB0004228B9 /* TPArrayStreamTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStreamTests.m; sourceTree = "<group>"; };
 		B7EC6B211C9B102B004228B9 /* TPArrayStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPArrayStream.h; sourceTree = "<group>"; };
 		B7EC6B221C9B102B004228B9 /* TPArrayStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPArrayStream.m; sourceTree = "<group>"; };
@@ -180,7 +188,6 @@
 			children = (
 				B7455FD51C552F800031C79C /* TPKit */,
 				B7455FE11C552F800031C79C /* TPKitTests */,
-				B7B4A5D41CE4CB3500ACDDE2 /* TPKitTests */,
 				B7455FD41C552F800031C79C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -217,8 +224,6 @@
 				B780739E1C8F2BE1008EE427 /* XMLNodeTests */,
 				B780739F1C8F2BF3008EE427 /* Generator Tests */,
 				B74560181C5530560031C79C /* TPSafeFieldExtractingTests.m */,
-				B74560191C5530560031C79C /* NSData+Base64Test.m */,
-				B7455FE21C552F800031C79C /* TPKitTests.m */,
 				B7455FE41C552F800031C79C /* Info.plist */,
 				B74561CF1C5658480031C79C /* TPLoggerTests.m */,
 				B780738D1C8E0A0C008EE427 /* TPJSONSerializationTests.m */,
@@ -363,15 +368,6 @@
 				B7EC6B221C9B102B004228B9 /* TPArrayStream.m */,
 			);
 			name = Misc;
-			sourceTree = "<group>";
-		};
-		B7B4A5D41CE4CB3500ACDDE2 /* TPKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				B7B4A5D51CE4CB3500ACDDE2 /* TPKitTests.m */,
-				B7B4A5D71CE4CB3500ACDDE2 /* Info.plist */,
-			);
-			path = TPKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,7 +533,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B4A5D61CE4CB3500ACDDE2 /* TPKitTests.m in Sources */,
+				B7B4A5ED1CE4E20700ACDDE2 /* TPXMLNameTests.m in Sources */,
+				B7B4A5EC1CE4E20700ACDDE2 /* TPXMLAttributeTests.m in Sources */,
+				B7B4A5E61CE4E1F700ACDDE2 /* TPDataReaderTests.m in Sources */,
+				B7B4A5E71CE4E20100ACDDE2 /* QArrayGeneratorTests.m in Sources */,
+				B7B4A5EB1CE4E20700ACDDE2 /* TPXMLParserTests.m in Sources */,
+				B7B4A5DE1CE4E1D600ACDDE2 /* TPSafeFieldExtractingTests.m in Sources */,
+				B7B4A5E01CE4E1F000ACDDE2 /* TPJSONSerializationTests.m in Sources */,
+				B7B4A5EA1CE4E20700ACDDE2 /* TPXMLElementBuilderTests.m in Sources */,
+				B7B4A5DF1CE4E1ED00ACDDE2 /* TPLoggerTests.m in Sources */,
+				B7B4A5E51CE4E1F700ACDDE2 /* TPArrayStreamTests.m in Sources */,
+				B7B4A5E41CE4E1F700ACDDE2 /* TPRegexDictionaryTests.m in Sources */,
+				B7B4A5E91CE4E20700ACDDE2 /* TPXMLElementTests.m in Sources */,
+				B7B4A5E81CE4E20100ACDDE2 /* QHashGeneratorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,6 +755,7 @@
 				B7B4A5DD1CE4CB3500ACDDE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
